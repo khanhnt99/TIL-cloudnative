@@ -1,2 +1,6 @@
 ### Lab kind k8s cluster
-- `kind create cluster --config=local-cluster-config.yaml`
+- Tạo cluser lab
+    + `kind create cluster --config=local-cluster-config.yaml`
+- Xóa cluster
+    + `kind get clusters`
+    + `kind delete cluster --name local-lab-cluster`
